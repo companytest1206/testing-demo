@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+.enterprise-content h2 {font-size: 30px;
+                 color: #52bed9;}
+
+.enterprise-content p {font-size: 20px;
+                 padding-left: 10px;}
+
+.enterprise-content ul li {list-style: disc!important;}
+
+.enterprise-services h3 {color: #000!important;
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 15px;
+                margin-top: 30px;}
+
+.enterprise-services p {font-size: 20px;}
+
+.enterprise-box {min-height: 400px;}
+
+
+
+@media(min-width:769px) and (max-width:1024px){
+	
+	.enterprise-box {min-height: 445px;}
+	
+	.less-p {margin-top: 42px;}
+
+}
+
+@media(min-width:577px) and (max-width:786px){
+	
+.enterprise-services h3 {font-size: 22px;}
+
+.enterprise-services p {font-size: 18px;}
+	
+.enterprise-box {min-height: 490px;}
+	
+.enterprise-p {margin-top: 42px;}
+}
+
+
+@media(min-width:375px) and (max-width:576px){
+	
+.enterprise-content h2 {font-size: 22px;}
+	
+.enterprise-content p {font-size: 18px;}
+	
+.enterprise-services h3 {font-size: 22px;}
+	
+.enterprise-services p {font-size: 18px;}
+	
+}
+
+
+@media(max-width:374px){
+	
+.enterprise-content h2 {font-size: 20px;}
+	
+.enterprise-content p {font-size: 16px;}
+		
+.enterprise-services h3 {font-size: 20px;}
+	
+.enterprise-services p {font-size: 16px;}
+		
+}

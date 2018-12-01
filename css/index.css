@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+.carousel-indicators1 li {width: 10px;
+                          height: 10px;
+                          border-radius: 50%;}
+
+/*PIXEL PERFECT*/
+
+.pixel-perfect h2 {color: #52bed9;}
+
+.pixel-perfect p {font-size: 18px;}
+
+/*WHO WE HELPED*/
+
+.clients-logos h2 {color: #52bed9;}
+
+/*OPTION*/
+
+.option-bg {background-color: #f7f7f7;}
+
+.option h2 {color: #000;}
+
+.option h3 {font-size: 22px;
+            color: #000;
+            font-weight: 700;}
+
+.option h2 {color: #000;}
+
+.option p {font-size: 18px;}
+
+/*FEATURED PROJECTS*/
+
+.featured-projects h2 {color: #000!important;}
+
+.row1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 0px;
+}
+
+.column1 {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 0px;
+}
+
+.column1 img {
+    margin-top: 0px;
+    vertical-align: middle;
+}
+
+
+@media screen and (max-width: 800px) {
+    .column1 {
+        -ms-flex: 25%;
+        flex: 25%;
+        max-width: 25%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column1 {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+/*PROJECT*/
+
+.project h2 {color: #000!important;}
+
+.project h3 {font-size: 56px;
+             color: #000!important;
+             font-weight: 300;
+             margin-top: 30px;
+             margin-bottom: 20px;}
+
+.project p {font-size: 24px;
+             color: #000!important;
+             font-weight: 300;}
+
+/*CLIENT TESTIMONIAL*/
+
+.client-say h2 {color: #000!important;}
+
+.client-img {width: 100px;
+             height: 100px;
+             border-radius: 50%;
+             box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+             overflow: hidden;}
+
+.client-testimonial h3 {font-size: 24px;
+                        color: #000;
+                        font-weight: 600;}
+
+.client-testimonial p {font-size: 18px;
+                       margin-bottom: 0px;}
+
+.card1 {box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+        border: 0px!important;}
+
+@media(min-width:577px) and (max-width:786px){
+	
+.project h3 {margin-top: 10px;
+             margin-bottom: 10px;}
+	
+}
+
+@media(min-width:375px) and (max-width:576px){
+	
+.pixel-perfect h2 {font-size: 24px;}
+	
+.pixel-perfect h2 {font-size: 24px;}
+	
+.clients-logos h2 {font-size: 28px;}
+	
+.client-say h2 {font-size: 24px;}
+	
+.project-icon {width: 80px;
+	           height: auto;}
+	
+.project h3 {margin-top: 7px;
+             margin-bottom: 7px;
+	         font-size: 42px;}
+	
+.option h2 {font-size: 22px;}
+	
+.project h2 {font-size: 22px;}
+	
+.option img {width: 75px;
+	         height: auto;}
+	
+.option h3 {margin-top: 15px;}
+}
+
+
+@media(max-width:374px){
+	
+.option h3 {font-size: 20px;
+	        margin-top: 15px;}
+	
+.option img {width: 70px;
+	         height: auto;}
+	
+.option p {font-size: 16px;}
+
+.pixel-perfect p {font-size: 16px;}
+
+.pixel-perfect h2 {font-size: 22px;}
+
+.clients-logos h2 {font-size: 22px;}
+	
+.client-say h2 {font-size: 22px;}
+	
+.featured-projects h2 {font-size: 22px;}
+	
+.project h2 {font-size: 22px;}
+	
+.option h2 {font-size: 22px;}
+	
+.project h2 {font-size: 22px;}
+	
+.client-testimonial h3 {font-size: 22px;}
+
+.client-testimonial p {font-size: 16px;}
+	
+.project-icon {width: 80px;
+	           height: auto;}
+	
+.project h3 {margin-top: 7px;
+             margin-bottom: 7px;
+	         font-size: 36px;}
+	
+}

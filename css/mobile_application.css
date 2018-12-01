@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*MOBILE SERVICE*/
+
+.mobile-service1 {background-image: url(../img/box_1.png);
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  padding: 40px;
+                  background-position-y: bottom;
+                  background-position-x: right;}
+
+.mobile-service2 {background-image: url(../img/box_2.png);
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  padding: 40px;
+                  background-position-y: bottom;
+                  background-position-x: right;}
+
+.mobile-service3 {background-image: url(../img/box_3.png);
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  padding: 40px;
+                  background-position-y: bottom;
+                  background-position-x: right;}
+
+.mobile-service4 {background-image: url(../img/box_4.png);
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  padding: 40px;
+                  background-position-y: bottom;
+                  background-position-x: right;}
+
+.mobile-service {margin-top: 80px;}
+
+.mobile-service h2 {font-size: 52px;
+                    font-weight: 700;}
+
+.mobile-service p {font-size: 22px;}
+
+.mobile-content h2 {font-size: 30px;
+                 color: #000!important;}
+
+.mobile-content p {font-size: 22px;}
+
+@media(min-width:1025px) and (max-width:1440px){
+	
+	.mobile-service p {font-size: 20px;}
+	
+	.mobile-service {margin-top: 60px;}
+}
+
+@media(min-width:769px) and (max-width:1024px){
+	
+	.mobile-service p {font-size: 20px;}
+	
+	.mobile-service {margin-top: 50px;}
+}
+
+@media(min-width:577px) and (max-width:768px){
+	
+	.mobile-service p {font-size: 20px;}
+	
+	.mobile-service {margin-top: 50px;}
+}
+
+
+@media(min-width:375px) and (max-width:576px){
+	
+.mobile-service h2 {font-size: 38px;}
+	
+.mobile-content h2 {font-size: 22px;}
+	
+.mobile-content p {font-size: 18px;}
+	
+.mobile-service p {font-size: 18px;}
+	
+.mobile-service1 {padding: 25px;}
+
+.mobile-service2 {padding: 25px;}
+
+.mobile-service3 {padding: 25px;}
+
+.mobile-service4 {padding: 25px;}
+	
+.mobile-service {margin-top: 40px;}
+	
+}
+
+
+@media(max-width:374px){
+	
+.mobile-service {margin-top: 30px;}
+	
+.mobile-service1 {padding: 20px;}
+
+.mobile-service2 {padding: 20px;}
+
+.mobile-service3 {padding: 20px;}
+
+.mobile-service4 {padding: 20px;}
+	
+.mobile-service h2 {font-size: 32px;}
+	
+.mobile-content h2 {font-size: 20px;}
+	
+.mobile-content p {font-size: 16px;}
+	
+.mobile-service p {font-size: 16px;}
+	
+}

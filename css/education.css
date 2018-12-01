@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+.education-content h2 {font-size: 30px;
+                 color: #52bed9;}
+
+.education-content h3 {font-size: 30px;
+                       color: #000!important;
+                       margin-bottom: 20px;}
+
+.education-content p {font-size: 20px;
+                 padding-left: 10px;}
+
+.education-content ul li {list-style: decimal!important;}
+
+.education-phylosoPhy h2 {color: #000!important;
+                       font-size: 30px;
+                       font-weight: 600;
+                       margin-bottom: 25px;}
+
+.education-phylosoPhy p {font-size: 20px;}
+
+
+@media(min-width:769px) and (max-width:1024px){
+
+.education-phylosoPhy h2 {font-size: 26px;}
+
+.education-phylosoPhy p {font-size: 18px;}
+
+
+}
+
+@media(min-width:577px) and (max-width:786px){
+	
+.education-phylosoPhy h2 {font-size: 22px;
+	                      margin-bottom: 20px;}
+
+.education-phylosoPhy p {font-size: 16px;}
+	
+}
+
+
+@media(min-width:375px) and (max-width:576px){
+	
+.education-content h2 {font-size: 22px;}
+	
+.education-content h3 {font-size: 22px;}
+	
+.education-content img {width: 80px;
+	                        height: auto;}
+	
+.education-content p {font-size: 18px;}
+	
+.education-phylosoPhy h2 {font-size: 22px;
+	                   margin-top: 25px;
+	                   margin-bottom: 10px;}
+	
+.education-phylosoPhy p {font-size: 18px;}
+	
+}
+
+
+@media(max-width:374px){
+	
+.education-content h3 {font-size: 20px;}
+	
+.education-content img {width: 90px;
+	                        height: auto;}
+	
+.education-content h2 {font-size: 20px;}
+	
+.education-content p {font-size: 16px;}
+	
+.education-phylosoPhy h2 {font-size: 22px;
+	                   margin-top: 25px;
+	                   margin-bottom: 10px;}
+	
+.education-phylosoPhy p {font-size: 16px;}
+	
+}

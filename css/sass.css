@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sass-content h2 {font-size: 30px;
+                 color: #52bed9;}
+
+.sass-content p {font-size: 20px;
+                 padding-left: 10px;}
+
+.sass-content ul li {list-style: decimal!important;}
+
+.sass-services h3 {color: #000!important;
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 15px;
+                margin-top: 30px;}
+
+.sass-services p {font-size: 20px;}
+
+.sass-box {border: 3px solid #52bed9; 
+	       min-height: 475px;}
+
+@media(min-width:769px) and (max-width:1024px){
+	
+	.sass-box {min-height: 525px;}
+
+}
+
+@media(min-width:577px) and (max-width:786px){
+	
+.sass-services h3 {font-size: 22px;}
+
+.sass-services p {font-size: 18px;}
+	
+.sass-box {min-height: 575px;}
+}
+
+
+@media(min-width:375px) and (max-width:576px){
+	
+.sass-content h2 {font-size: 22px;}
+	
+.sass-content p {font-size: 18px;}
+	
+.sass-services h3 {font-size: 22px;}
+	
+.sass-services p {font-size: 18px;}
+	
+}
+
+
+@media(max-width:374px){
+	
+.sass-content h2 {font-size: 20px;}
+	
+.sass-content p {font-size: 16px;}
+		
+.sass-services h3 {font-size: 20px;}
+	
+.sass-services p {font-size: 16px;}
+		
+}

@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+.aboutus-content h2 {font-size: 30px;
+                 color: #52bed9;}
+
+.aboutus-content p {font-size: 20px;
+                 padding-left: 10px;}
+
+.aboutus-content ul li {list-style: decimal!important;}
+
+.user-content h2 {font-size: 30px;
+                 color: #52bed9;
+                 margin-bottom: 20px;}
+
+.user-content p {font-size: 18px;}
+
+/*TEAM*/
+
+.team h2 {color: #000!important;}
+
+.team-img {width: 130px;
+             height: 130px;
+             border-radius: 50%;
+             box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+             overflow: hidden;}
+
+.about-team h3 {font-size: 28px;
+                        color: #000;
+                        font-weight: 600;
+                margin-bottom: 10px!important;}
+
+.about-team h4 {font-size: 20px;
+                        color: #999;
+                        font-weight: 600;}
+
+.about-team p {font-size: 18px;
+                       margin-bottom: 0px;
+               margin-top: 20px;}
+
+.card1 {box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+        border: 0px!important;}
+
+@media(min-width:1201) and (max-width:1600px){
+	
+	
+}
+
+
+@media(min-width:992px) and (max-width:1200px){
+	.user-content h2 {font-size: 26px;}
+	
+}
+
+@media(min-width:768px) and (max-width:991px){
+	
+.user-content h2 {font-size: 26px;}
+}
+
+@media(min-width:577px) and (max-width:767px){
+	
+
+}
+
+
+
+@media(min-width:375px) and (max-width:576px){
+	
+.aboutus-content h2 {font-size: 22px;}
+	
+.aboutus-content p {font-size: 18px;}
+	
+.team h2 {font-size: 24px;}
+	
+}
+
+
+@media(max-width:374px){
+	
+.aboutus-content h2 {font-size: 20px;}
+	
+.aboutus-content p {font-size: 16px;}
+	
+.team h2 {font-size: 22px;}
+	
+.about-team h3 {font-size: 22px;}
+	
+.about-team h4 {font-size: 18px;}
+
+.about-team p {font-size: 16px;}
+		
+}

@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+.healthcare-content h2 {font-size: 30px;
+                       color: #52bed9!important;}
+
+.healthcare-content p {font-size: 22px;}
+
+.ui-services h2 {color: #52bed9;
+                  padding-bottom: 50px!important;
+                  font-size: 30px;}
+
+.ui-services h3 {color: #000!important;
+                font-size: 26px;
+                font-weight: 600;
+                margin-bottom: 15px;
+                margin-top: 30px;}
+
+.ui-services img {margin-top: -58px;}
+
+@media(min-width:1025px) and (max-width:1440px){
+	
+.ui-services h3 {font-size: 22px;}
+}
+
+@media(min-width:769px) and (max-width:1024px){
+	
+.ui-services h3 {font-size: 22px;}
+}
+
+@media(min-width:577px) and (max-width:786px){
+	
+	.ui-services h3 {font-size: 22px;}
+	
+	.deliver-set {margin-top: 41px;}
+	
+	.keep-set {margin-top: 28px;}
+}
+
+@media(min-width:375px) and (max-width:576px){
+	
+.healthcare-content h2 {font-size: 22px;}
+	
+.healthcare-content p {font-size: 18px;}
+	
+.ui-services h2 {font-size: 21px;
+	            padding-bottom: 30px!important;}
+	
+.ui-services h3 {font-size: 22px;}
+	
+.ui-services p {font-size: 18px;}
+	
+.ui-services img {width: 80px;
+	              height: auto;}
+
+}
+
+@media(max-width:374px){
+	
+.ui-services img {width: 80px;
+	                  height: auto;}
+
+.healthcare-content h2 {font-size: 20px;}
+	
+.healthcare-content p {font-size: 16px;}
+	
+.ui-services h2 {font-size: 20px;
+	              padding-bottom: 30px!important;}
+	
+.ui-services h3 {font-size: 20px;}
+	
+.ui-services p {font-size: 16px;}
+
+}

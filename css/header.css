@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {font-family: 'Open Sans', sans-serif;
+            src: url(../fonts/OpenSans-Regular.ttf);}
+
+body {font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+       color: #999;}
+
+ul {padding-left: 0px !important;}
+
+ul li {list-style: none;}
+
+a:hover {text-decoration: none;}
+
+
+/*HEADER1*/
+
+.header-logo img {max-width: 110px;
+                  height: auto;}
+
+.help-desk img {max-width: 55px;
+                height: auto;}
+
+/*HEADER2*/
+
+.header2-bg {background-color: #52bed9;}
+
+.header2-bg ul li a {font-size: 16px;
+                     color: #fff !important;}
+
+.header2-bg ul li a {transition: all 0.5s;}
+
+.header2-bg ul li a:hover {background-color: rgba(0, 0, 0, 0.10);}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: none !important;
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent}
+
+.dropdown-menu1 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0;
+  margin:0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #52bed9;
+  background-clip: padding-box;
+  border: 0px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0;
+}
+
+.nav-border {border-bottom: 1px solid rgba(255, 255, 255, 0.5);}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+@media(max-width:374px){
+	
+	.header-logo img {max-width: 70px;
+                  height: auto;}
+	
+	.help-desk p {font-size: 14px;}
+	
+	.help-desk img {max-width: 35px;
+                height: auto;}
+	
+	.mobile-header ul li {border-bottom: 1px solid rgba(255, 255, 255, 0.2)!important;
+	                      border-width: 80% !important;}
+
+}
+
+@media(min-width:375px) and (max-width:576px){
+	
+	.header-logo img {max-width: 80px;
+                  height: auto;}
+	
+	.help-desk img {max-width: 45px;
+                height: auto;}
+	
+	.mobile-header ul li {border-bottom: 1px solid rgba(255, 255, 255, 0.2)!important;
+	                      border-width: 80% !important;}
+
+}
+
+
+@media(min-width:577px) and (max-width:768px){
+
+	.mobile-header ul li {border-bottom: 1px solid rgba(255, 255, 255, 0.2)!important;
+	                      border-width: 80% !important;}
+	
+	.help-desk img {max-width: 40px;
+                height: auto;}
+}

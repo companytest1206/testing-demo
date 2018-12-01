@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.it-content h2 {font-size: 30px;
+                       color: #52bed9!important;}
+
+.it-content ul li {list-style: outside;}
+
+.it-content p {font-size: 22px;
+               padding-left: 10px;}
+
+
+@media(min-width:1025px) and (max-width:1440px){
+	
+
+}
+
+@media(min-width:769px) and (max-width:1024px){
+	
+
+}
+
+@media(min-width:577px) and (max-width:786px){
+	
+}
+
+@media(min-width:375px) and (max-width:576px){
+	
+.it-content h2 {font-size: 22px;}
+	
+.it-content p {font-size: 18px;}
+
+}
+
+@media(max-width:374px){
+
+.it-content h2 {font-size: 20px;}
+	
+.it-content p {font-size: 16px;}
+
+}
